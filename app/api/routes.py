@@ -70,3 +70,6 @@ def delete_contact(current_use_token, id):
     db.session.commit()
     reponse = contact_schema.dump(contact)
     return jsonify(response)
+
+
+    # one potato
